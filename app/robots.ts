@@ -1,6 +1,6 @@
-// app/robots.ts
 import type { MetadataRoute } from "next";
-import { BRAND } from "@/lib/constants";
+
+export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -11,7 +11,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/", "/admin/"],
       },
     ],
-    sitemap: `${BRAND.url}/sitemap.xml`,
-    host: BRAND.url,
+    sitemap: "https://trinidev.com/sitemap.xml",
+    host: "https://trinidev.com",
   };
 }
