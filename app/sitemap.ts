@@ -1,3 +1,4 @@
+// app/sitemap.ts
 import type { MetadataRoute } from "next";
 import { BRAND } from "@/lib/constants";
 
