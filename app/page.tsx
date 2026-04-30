@@ -38,6 +38,7 @@ export default function HomePage() {
 
       <main id="main-content">
         <Hero />
+        <script src="https://crm-chatvet-production.up.railway.app/static/widget.js" data-client-id="DEMO_CLIENT"></script>
         <SocialProof />   {/* Logos de clínicas, Google reviews count */}
         <Services />
         <HowItWorks />    {/* 3 pasos: Auditoría → Estrategia → Resultados */}
