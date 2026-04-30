@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",       // HTML estático
-  images: {
-    unoptimized: true,    // para SSG puro
-  },
-};
+  const nextConfig = {
+    output: "export",
+    trailingSlash: true,
+    images: {
+      unoptimized: true,
+    },
+  };
 
-module.exports = nextConfig;
+  module.exports = nextConfig;
